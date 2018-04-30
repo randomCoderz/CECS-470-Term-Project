@@ -1,0 +1,14 @@
+div#features-list div.feature{
+    float: left;
+    clear: both;
+}
+
+div#features-list div.feature p{
+    font-size: 1.2em;
+}
+
+div#features-list div.feature img{
+    float: left;
+    clear: both;
+    margin: 10px 20px 10px 0px;
+}
