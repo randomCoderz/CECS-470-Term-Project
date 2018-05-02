@@ -8,6 +8,7 @@
         <title>Contact | Beach Launch Team</title>
     
        <link rel="stylesheet" href="css/style.css"> 
+       <link rel="stylesheet" href="form.css">
     </head>
     <body>
         <div class="container">
@@ -23,7 +24,12 @@
             </nav>
 
             <main>
-                
+                <form id="contact" method="" action="">
+				    Name: <input type="text" name="name" value=""> <br>
+				    E-mail: <input type="text" name="email" value=""> <br>
+				    Questions: <textarea name="comment" rows="5" cols="40"></textarea>
+				    <input type="submit" name="submit" value="Submit">
+			    </form>
             </main>
             <footer>
                 <p>Latest Update: <em><!--#echo var="LAST_MODIFIED"--></em> </p>
