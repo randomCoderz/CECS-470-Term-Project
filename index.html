@@ -23,10 +23,7 @@
             <main>
                 
             </main>
-            <footer>
-                <p>Latest Update: <em><!--#echo var="LAST_MODIFIED"--></em> </p>
-                <p>Students: <em>Juan David Lopez:<span>013101593</span></em></p>
-            </footer>
+            git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
         </div>
     </body>
 </html>
