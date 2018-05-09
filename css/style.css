@@ -33,7 +33,13 @@ body, html {
     margin-left: 1.5em;
     margin-right: 1.5em;
     margin-bottom: 1em;
-	border-bottom: 0.1em solid white;
+    border-bottom: 0.1em solid white;
+    /* border-radius: 1em; */
+}
+
+.member-profile:hover {
+    background-color: #3f3f3f;
+    border-bottom: 0.1em solid gold;
 }
 
 .member-profile .avatar-icon {
