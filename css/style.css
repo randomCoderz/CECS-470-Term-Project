@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
 body, html {
     height: 100%;
+    margin: 0;
+}
+
+.splashFont{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 8em;
+    color: white;
+    left: 10%;
+    bottom: 47%;
+    position: absolute;
+    text-align: center;
     margin: 0;
 }
 
@@ -14,4 +27,16 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-width: 600px){
+    .splashFont{
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .splashFont{
+        font-size: 5em;
+    }
 }

@@ -11,7 +11,7 @@ body
   
   /* make it look decent enough */
   background: #232323;
-  color: #cdcdcd;
+  color: #cdcdcd;/*#cdcdcd*/
   font-family: "Avenir Next", "Avenir", sans-serif;
   overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
 }
@@ -19,13 +19,13 @@ body
 a
 {
   text-decoration: none;
-  color: #232323;
+  color: #FFFFFF;/*#232323*/
   transition: color 0.3s ease;
 }
 
 a:hover
 {
-  color: tomato;
+  color: #4a627c;/*tomato*/
 }
 
 #menuToggle
@@ -133,7 +133,7 @@ a:hover
   padding-top: 125px;
   right: -100px;
   
-  background: #ededed;
+  background: rgba(0, 0, 0, 0.8);/*#ededed*/
   list-style-type: none;
   /*-webkit-font-smoothing: antialiased;*/
   /* to stop flickering of text in safari */
