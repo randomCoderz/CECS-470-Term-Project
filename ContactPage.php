@@ -230,9 +230,7 @@ var phone= document.forms["RegForm"]["phone"];
             </main>
             <footer>
                 <p>Latest Update: <em><!--#echo var="LAST_MODIFIED"--></em> </p>
-				<p>Students: <em>Raviraj Mane:<span>016670249</span></em></p>
-				 <p>Students: <em>Ahmed Hamed:<span>018722130</span></em></p>
-                
+                <p>Students: <em>Raviraj Mane:<span>016670249</span></em></p>
             </footer>
         </div>
     </body>
