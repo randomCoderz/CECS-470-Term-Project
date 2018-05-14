@@ -11,7 +11,7 @@ body
   
   /* make it look decent enough */
   background: #232323;
-  color: #cdcdcd;
+  color: #cdcdcd;/*#cdcdcd*/
   font-family: "Avenir Next", "Avenir", sans-serif;
   overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
   font-size: 1.2em;
@@ -20,13 +20,13 @@ body
 ul#menu a
 {
   text-decoration: none;
-  color: #232323;
+  color: #FFFFFF;/*#232323*/
   transition: color 0.3s ease;
 }
 
 ul#menu a:hover
 {
-  color: tomato;
+  color: #4a627c;/*tomato*/
 }
 
 #menuToggle
@@ -100,7 +100,7 @@ ul#menu a:hover
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #cdcdcd;/*#232323*/
 }
 
 /*
@@ -134,7 +134,7 @@ ul#menu a:hover
   padding-top: 125px;
   right: -100px;
   
-  background: #ededed;
+  background: rgba(0, 0, 0, 0.6);/*#ededed*/
   list-style-type: none;
   /*-webkit-font-smoothing: antialiased;*/
   /* to stop flickering of text in safari */

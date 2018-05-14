@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.splashFont{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 8em;
+    color: white;
+    left: 10%;
+    bottom: 47%;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../image/homeImage.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Media Queries default*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .splashFont{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 4em;
+    color: white;
+    left: 3%;
+    bottom: 40%;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .splashFont{
+        font-family: 'Oxygen', sans-serif;
+        font-size: 4em;
+        color: white;
+        left: 12%;
+        bottom: 45%;
+        position: absolute;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        .splashFont{
+        font-family: 'Oxygen', sans-serif;
+        font-size: 7em;
+        color: white;
+        left: 14%;
+        bottom: 43%;
+        position: absolute;
+        text-align: center;
+        margin: 0;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .splashFont{
+        font-family: 'Oxygen', sans-serif;
+        font-size: 7em;
+        color: white;
+        left: 10%;
+        bottom: 30%;
+        position: absolute;
+        text-align: center;
+        margin: 0;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+    .splashFont{
+        font-family: 'Oxygen', sans-serif;
+        font-size: 8em;
+        color: white;
+        left: 27%;
+        bottom: 45%;
+        position: absolute;
+        text-align: center;
+        margin: 0;
+    }
+}
