@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../image/homeImage.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meet-the-team {
+    max-width: 80%;
+	background-color: #353535;
+	margin: 1em auto;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+
+.member-profile {
+	max-width: 23%;
+	display: inline-block;
+	text-align: center;
+	padding: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+    border-bottom: 0.1em solid white;
+    /* border-radius: 1em; */
+}
+
+.member-profile:hover {
+    background-color: #3f3f3f;
+    border-bottom: 0.1em solid gold;
+    cursor: pointer;
+}
+
+.member-profile .avatar-icon {
+    font-size: 2.5em;
+}
+
+.member-profile h3 {
+    font-weight: 400;
+}
+
+.member-profile h4 {
+    font-weight: 500;
+    font-size: 0.86em;
+    font-style: italic;
+}

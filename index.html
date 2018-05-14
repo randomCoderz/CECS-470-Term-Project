@@ -6,22 +6,50 @@
         <title>Home | Beach Launch Team</title>
     
        <link rel="stylesheet" href="css/style.css"> 
+       <link rel="stylesheet" href="css/home-styles.css">
+       <link rel="stylesheet" href="css/menu.css">
     </head>
+    
     <body>
+        <div class = "bg"></div>
         <div class="container">
             <header>
+                    <nav role="navigation">
+                            <div id="menuToggle">
+                                <input type="checkbox"/>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            <ul id="menu">
+                              <a href="#"><li>Home</li></a>
+                              <a href="#"><li>About Us</li></a>
+                              <a href="#"><li>Info</li></a>
+                              <a href="contact.html"><li>Contact</li></a>
+                            </ul>   
+                            </div>
+                        </nav>
             </header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="team.php">Team Members</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
-                </ul>
-            </nav>
 
             <main>
-                
+                <div id="features-list">
+                    <h2>Our Mission</h2>
+                    
+                    <div class="feature">
+                        <img alt="" src="https://source.unsplash.com/random/100x100" height="" width=""/>
+                        <p>Dignissimos ex quae quia. Hic vitae exercitationem consequatur sapiente odit sed ducimus eligendi.</p>
+                    </div>
+
+                    <div class="feature">
+                        <img alt="" src="https://source.unsplash.com/random/100x100" height="" width=""/>
+                        <p>Inventore reprehenderit quidem sit illum molestiae consequatur voluptatum rerum.</p>
+                    </div>
+
+                    <div class="feature">
+                        <img alt="" src="https://source.unsplash.com/random/100x100" height="" width=""/>
+                        <p>Error qui dolore earum facilis mollitia animi rerum minus. Distinctio et illo tenetur cumque enim ea est.</p>
+                    </div>
+                    
+                </div>
             </main>
             <footer>
                 <p>Latest Update: <em><!--#echo var="LAST_MODIFIED"--></em> </p>
@@ -32,8 +60,5 @@
                 <p><em>Aman Mehta:<span>013340442</span></em></p>
                 <p><em>Juan David Lopez:<span>013101593</span></em></p>
             </footer>
-        </div>
     </body>
 </html>
-
-
