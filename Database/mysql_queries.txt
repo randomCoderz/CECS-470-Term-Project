@@ -1,0 +1,42 @@
+
+Credentials for Netbeans for executing mysql queries. 
+username- cecs470o30
+password- eing7a
+
+create database cecs470o30;
+
+use cecs470o30;
+CREATE TABLE Club_Officers
+(
+FirstName varchar(30),
+LastName varchar(30),
+Major varchar(100),
+Bio varchar(255)
+);
+INSERT INTO Club_Officers (FirstName, LastName,Major, Bio)
+VALUES ('Hector','Felix','Aeronautical and Astronautical Engineering','Beach Launch Team(BLT) is a liquid rocket laboratory that is based in CSULB');
+
+INSERT INTO Club_Officers (FirstName, LastName,Major, Bio)
+VALUES ('Cara','Hoffman','Aeronautical Engineering','design, develop, build, and test mechanical and thermal sensors and devices, including tools, engines, and machines component in CSULB Beach Launch Team');
+INSERT INTO Club_Officers (FirstName, LastName,Major, Bio)
+VALUES ('Philip','Thompson','Mechanical Engineering','work mostly in engineering services, research and development, and manufacturing');
+INSERT INTO Club_Officers (FirstName, LastName,Major, Bio)
+VALUES ('Rickie','Cline','Computer Science','Develop software projects in machine learning languages');
+
+
+
+
+
+CREATE TABLE Events
+(
+Date date,
+Short_Description varchar(100),
+Coordinator_phone varchar(15)
+);
+
+INSERT INTO Events(Date,Short_Description,Coordinator_phone)
+VALUES ('2018-03-15','Beach Launch team had launched spacecraft to the International Space Station','5622902642');
+
+
+INSERT INTO Events(Date,Short_Description,Coordinator_phone)
+VALUES ('2018-05-28','Beach Launch team will launch Delta 4-Heavy rocket to  International Space Station','5622902642');
