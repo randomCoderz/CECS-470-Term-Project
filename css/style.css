@@ -18,13 +18,13 @@ body, html {
 
 div.vertical-line {
     border-right: 2px solid #ffffff;
-    width: 1px;
+    width: .25em;
     float: left;
-    margin-top: 25px;
+    margin-top: 29px;
     margin-bottom: 200px;
-    left: 10px;
+    left: 8px;
     position: absolute;
-    height: 100%;
+    height: 70%;
 
 }
 
@@ -33,6 +33,12 @@ div.launch-history {
     clear: both;
 }
 
+div.feature p {
+    /*display: inline-block;*/
+    overflow: hidden;
+}
+
+
 div.launch-history span.bullet {
     font-size: 3em;
     color: #ffffff;
@@ -40,9 +46,25 @@ div.launch-history span.bullet {
 
 div.launch-history span.date {
     display: inline-block;
-    padding-bottom: 10px;
+    font-size: 1em;
+    font-weight: 700;
 }
 
 div.launch-history div.history-item {
-    height: 7em;
+    height: auto;
+    margin-left: 10%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    margin: 1em 0 1em 0;
+    border: 1px solid #ffffff;
+    min-width: 100%;
+    text-align:center;
+    color: #ffffff;
 }
