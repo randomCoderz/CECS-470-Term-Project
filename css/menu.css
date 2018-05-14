@@ -14,16 +14,17 @@ body
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
   overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+  font-size: 1.2em;
 }
 
-a
+ul#menu a
 {
   text-decoration: none;
   color: #232323;
   transition: color 0.3s ease;
 }
 
-a:hover
+ul#menu a:hover
 {
   color: tomato;
 }

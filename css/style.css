@@ -15,3 +15,56 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+div.vertical-line {
+    border-right: 2px solid #ffffff;
+    width: .25em;
+    float: left;
+    margin-top: 29px;
+    margin-bottom: 200px;
+    left: 8px;
+    position: absolute;
+    height: 70%;
+
+}
+
+div.launch-history {
+    position: relative;
+    clear: both;
+}
+
+div.feature p {
+    /*display: inline-block;*/
+    overflow: hidden;
+}
+
+
+div.launch-history span.bullet {
+    font-size: 3em;
+    color: #ffffff;
+}
+
+div.launch-history span.date {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+div.launch-history div.history-item {
+    height: auto;
+    margin-left: 10%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    margin: 1em 0 1em 0;
+    border: 1px solid #ffffff;
+    min-width: 100%;
+    text-align:center;
+    color: #ffffff;
+}
