@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans:700i');
+
 body, html {
     height: 100%;
     margin: 0;
 }
 
+h2 {
+    border-bottom: .2em solid #ffffff;
+    display: inline-block;
+}
+
 .bg {
     /* The image used */
-    background-image: url("../image/homeImage.jpg");
+    background-image: url("../image/homeImage.png");
 
     /* Full height */
     height: 100%; 
@@ -14,6 +21,83 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+div.vertical-line {
+    border-right: 2px solid #ffffff;
+    width: .25em;
+    float: left;
+    margin-top: 29px;
+    margin-bottom: 200px;
+    left: 8px;
+    position: absolute;
+    height: 70%;
+
+}
+
+div.launch-history {
+    position: relative;
+    clear: both;
+}
+
+div.feature p {
+    /*display: inline-block;*/
+    overflow: hidden;
+}
+
+
+div.launch-history span.bullet {
+    font-size: 3em;
+    color: #ffffff;
+}
+
+div.launch-history span.date {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+div.launch-history div.history-item {
+    height: auto;
+    margin-left: 15%;
+    border: 1px #ffffff solid;
+    padding: 15px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    margin: 1em 0 1em 0;
+    border: 1px solid tomato;
+    min-width: 100%;
+    text-align:center;
+    color: tomato;
+}
+
+.splashFont{
+    font-family: 'Expletus Sans', sans-serif;
+    font-size: 4em;
+
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1em;
+}
+
+.splashTextContainer{
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 30%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+span.subTitle {
+    font-size: 2em;
 }
 
 .meet-the-team {
@@ -55,4 +139,35 @@ body, html {
     font-weight: 500;
     font-size: 0.86em;
     font-style: italic;
+}
+
+/*Media Queries default*/
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .splashFont{
+        font-size: 4em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .splashFont{
+        font-size: 7em;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .splashFont{
+        font-size: 7em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+    .splashFont{
+        font-size: 8em;
+    }
 }

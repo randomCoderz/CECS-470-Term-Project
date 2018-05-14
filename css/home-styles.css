@@ -4,7 +4,7 @@ div#features-list div.feature{
 }
 
 div#features-list div.feature p{
-    font-size: 1.2em;
+
 }
 
 div#features-list div.feature img{
@@ -19,7 +19,7 @@ div#feature-list {
 
 div.container {
     display: block;
-    margin: 0px 10% 0px 10%;
+    margin: 0px 20% 0px 20%;
     /* width: 80%; */
 }
 
