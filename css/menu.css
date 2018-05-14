@@ -14,6 +14,7 @@ body
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
   overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+  font-size: 1.2em;
 }
 
 a
