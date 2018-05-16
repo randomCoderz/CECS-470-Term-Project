@@ -31,7 +31,11 @@ $result = $connection->query($sql);
     </head>
     
     <body>
-        <div class = "bg"></div>
+    <div class = "navbanner"></div>
+	      <div class="navbannerContainer">
+	            <span class="navbannerFont">BEACH LAUNCH</span>
+          </div>
+
         <div class="container">
             <header>
                 <nav role="navigation">
@@ -70,35 +74,6 @@ $result = $connection->query($sql);
                         }
                     ?>
 
-                    <div class="member-profile">
-                        <i class="fas fa-user-circle avatar-icon"></i>
-                        <h3>Derek Honkawa</h3>
-                        <h4>Assistant Lead</h4>
-                    </div>
-
-                  <div class="member-profile">
-                        <i class="fas fa-user-circle avatar-icon"></i>
-                        <h3>Joshua Jenson</h3>
-                        <h4>Propulsion Engineer</h4>
-                    </div>
-
-                    <div class="member-profile">
-                        <i class="fas fa-user-circle avatar-icon"></i>
-                        <h3>Candyce Palsis</h3>
-                        <h4>Relations Officer</h4>
-                    </div>
-
-                    <div class="member-profile avatar-icon">
-                        <i class="fas fa-user-circle avatar-icon"></i>
-                        <h3>Hunter Ly</h3>
-                        <h4>Construction Leader</h4>
-                    </div>
-
-                    <div class="member-profile">
-                        <i class="fas fa-user-circle avatar-icon"></i>
-                        <h3>Angelica Luquin</h3>
-                        <h4>Construction Leader</h4>
-                    </div>
                 </section>
             </main>
             <footer>
