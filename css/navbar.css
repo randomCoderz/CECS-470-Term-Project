@@ -1,0 +1,55 @@
+.navbanner
+{
+    background-image: url("../image/panoramic-banner.jpg");
+
+    height: 16%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbannerFont{
+    cursor: pointer;
+    font-family: 'Expletus Sans', sans-serif;
+    font-size: 2em;
+
+    font-weight: 200;
+    font-style: italic;
+    line-height: 1em;
+}
+
+.navbannerContainer{
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 90%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+/*Media Queries default*/
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .navbannerFont{
+        font-size: 1em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media (min-width: 992px) {
+
+}

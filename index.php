@@ -1,3 +1,4 @@
+<!--#!/usr/local/php5/bin/php-cgi-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,9 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Home | Beach Launch Team</title>
 
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home-styles.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+
 </head>
 
 <body>
@@ -25,28 +31,7 @@
 </a>
 
 <header>
-    <nav role="navigation">
-        <div id="menuToggle">
-            <input type="checkbox"/>
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu">
-                <a href="#">
-                    <li>Home</li>
-                </a>
-                <a href="#">
-                    <li>About Us</li>
-                </a>
-                <a href="#">
-                    <li>Info</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
-            </ul>
-        </div>
-    </nav>
+    <?php include("menu.php") ?>
 </header>
 
 <main>
@@ -83,7 +68,7 @@
 
 <main>
 
-    <div class="launch-history clearfix">
+    <div class="clearfix">
         <br>
         <h2>History</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non volutpat risus, vel posuere orci.
@@ -91,7 +76,8 @@
             pharetra maximus justo. Morbi sodales purus a ligula iaculis ultricies. Nunc at sodales dui, sed sodales
             lacus.</p>
 
-        <span class="bullet">&#149;</span>
+    <div class="time-line">
+    <span class="bullet">&#149;</span>
         <div class="history-item">
             <span class="date">1999</span>
             <p>This is a paragraph of text describing the event. I will come back and put real information here, I
@@ -125,6 +111,7 @@
             <p>This is a paragraph of text describing the event. I will come back and put real information here, I
                 promise.</p>
         </div>
+    </div>
     </div>
 </main>
 
@@ -140,34 +127,9 @@
         <button class="button">Donate Today</button>
     </a>
 </main>
-<footer>
-    <p>
-        <em>
-            <!--#echo var="LAST_MODIFIED"-->
-        </em>
-    </p>
-    <h3>Web Developers</h3>
 
-    <span class="author" title="013756039">Isaac Chavez, </span>
+<?php include("footer.php") ?>
 
-    <span class="author" title="013340442">Ahmed Hamed, </span>
-
-    <span class="author" title="013340442">Raviraj Mane, </span>
-
-    <span class="author" title="013340442">Aman Mehta, </span>
-
-    <span class="author" title="013101593">Juan David Lopez</span>
-
-    <h3>Attribution</h3>
-    <div>
-        <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
-        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
-        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
-           target="_blank">CC 3.0 BY</a>
-    </div>
-
-</footer>
-</div>
 <script src="js/logic.js" type="text/javascript"></script>
 </body>
 

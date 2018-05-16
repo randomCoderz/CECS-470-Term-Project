@@ -14,12 +14,11 @@ section.meet-the-team {
 }
 
 .member-profile {
-    max-width: 23%;
+    max-width: 8em;
     display: inline-block;
     text-align: center;
+    margin: .5em;
     padding: 1em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
     margin-bottom: 1em;
     border-bottom: 0.1em solid white;
     /* border-radius: 1em; */

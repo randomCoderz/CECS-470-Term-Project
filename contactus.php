@@ -6,38 +6,15 @@
         <title>Home | Beach Launch Team</title>
     
        <link rel="stylesheet" href="css/style.css"> 
-       <link rel="stylesheet" href="css/hoe-styles.css">
        <link rel="stylesheet" href="css/menu.css">
+
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="ContactPage.css">
     </head>
-    
+
     <body>
-        <div class = "bg"></div>
-        <div class="splashTextContainer">
-            <span class="splashFont">BEACH<br>LAUNCH</span>
-            <br>
-            <span class="subTitle">The best launch team ever.</span>
-        </div>
-
-
-
-            <header>
-                    <nav role="navigation">
-                            <div id="menuToggle">
-                                <input type="checkbox"/>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            <ul id="menu">
-                              <a href="index.html"><li>Home</li></a>
-                              <a href="#"><li>About Us</li></a>
-                              <a href="#"><li>Donations</li></a>
-                              <a href="team.html"><li>Team</li></a>
-                              <a href="contactus.php"><li>Contact</li></a>
-                            </ul>   
-                            </div>
-                        </nav>
-            </header>
+    <?php include("navbar.php") ?>
         <div class="container">
             <main>
 
@@ -244,15 +221,7 @@
                 </form>
 
             </main>
-            <footer>
-                <p>Latest Update: <em><!--#echo var="LAST_MODIFIED"--></em> </p>
-                <p>Web Developers:</p> 
-                <p><em>Isaac Chavez:<span>013756039</span></em></p>
-                <p><em>Ahmed Hamed:<span>013340442</span></em></p>
-                <p><em>Raviraj Mehta:<span>013340442</span></em></p>
-                <p><em>Aman Mehta:<span>013340442</span></em></p>
-                <p><em>Juan David Lopez:<span>013101593</span></em></p>
-            </footer>
+        <?php include("footer.php") ?>
         </div>
     </body>
 </html>

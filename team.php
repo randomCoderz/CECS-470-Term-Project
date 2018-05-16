@@ -24,6 +24,8 @@ $result = $connection->query($sql);
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/team.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
           integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
@@ -31,39 +33,7 @@ $result = $connection->query($sql);
 
 
 <body>
-<div class="navbanner"></div>
-<div class="navbannerContainer">
-    <span class="navbannerFont">BEACH LAUNCH</span>
-</div>
-
-
-        <header>
-            <nav role="navigation">
-                <div id="menuToggle">
-                    <input type="checkbox"/>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul id="menu">
-                        <a href="index.html">
-                            <li>Home</li>
-                        </a>
-                        <a href="#">
-                            <li>About Us</li>
-                        </a>
-                        <a href="team.html">
-                            <li>Donations</li>
-                        </a>
-                        <a href="team.html">
-                            <li>Team</li>
-                        </a>
-                        <a href="contactus.php">
-                            <li>Contact</li>
-                        </a>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+<?php include("navbar.php") ?>
 
     <div class="container">
         <main>
@@ -94,16 +64,7 @@ $result = $connection->query($sql);
             </section>
 
         </main>
-        <footer>
-            <p>Latest Update: <em><!--#echo var="LAST_MODIFIED"--></em></p>
-            <p>Web Developers:&emsp;</p>
-            <p><em>Isaac Chavez:&emsp;<span>013756039</span></em></p>
-            <p><em>Ahmed Hamed:&emsp;<span>013340442</span></em></p>
-            <p><em>Raviraj Mane:&emsp;<span>013340442</span></em></p>
-            <p><em>Aman Mehta:&emsp;<span>013340442</span></em></p>
-            <p><em>Juan David Lopez:&emsp;<span>013101593</span></em></p>
-        </footer>
-    </main>
+    <?php include("footer.php") ?>
 </div>
 </body>
 </html>

@@ -1,6 +1,7 @@
 div#features-list div.feature{
     float: left;
     clear: both;
+    margin: 1em 0 1em 0;
 }
 
 div#features-list div.feature p{
@@ -22,25 +23,6 @@ div.feature img {
 div#feature-list {
     clear: both;
 }
-
-footer {
-    font-size: .8em;
-    font-style: normal;
-    background-color: #000000;
-    padding: 2em 20% 0 20%;
-    clear: both;
-}
-
-footer a {
-    color: #ffffff;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-footer span.author {
-    display: inline-block;
-}
-
 
 .bg {
     /* The image used */
@@ -79,7 +61,8 @@ footer span.author {
     opacity: 1.0;
 }
 
-div.launch-history {
+div.time-line {
+    margin-top: 2em;
     position: relative;
     clear: both;
 }
@@ -89,30 +72,30 @@ div.feature p {
     overflow: hidden;
 }
 
-div.launch-history span.bullet {
+div.time-line span.bullet {
     font-size: 3em;
     color: #ffffff;
-    margin: 0px;
-    padding: 0px;
-    line-height: 2px;
+    margin: 0em;
+    padding: 0em;
+    line-height: .2em;
     position: absolute;
-    left: -14px;
+    left: -.24em;
 }
 
-div.launch-history span.date {
+div.time-line span.date {
     display: inline-block;
     font-size: 1.5em;
     font-weight: 700;
 }
 
-div.launch-history div.history-item {
+div.time-line div.history-item {
     height: auto;
     /*! margin-left: 15%; */
-    border-left: 1px #ffffff solid;
-    padding: 15px;
+    border-left: .1em #ffffff solid;
+    padding: 1.5em;
 }
 
-div.launch-history div:last-child {
+div.time-line div:last-child {
     border: none;
 }
 
