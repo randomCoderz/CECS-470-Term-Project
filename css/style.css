@@ -6,8 +6,12 @@ html {
 }
 
 h2 {
-    border-bottom: .2em solid #ffffff;
-    display: inline-block;
+    font-family: 'Expletus Sans', sans-serif;
+    /*border-bottom: .2em solid #ffffff;*/
+    font-size: 2.5em;
+    /*display: inline-block;*/
+    text-align: center;
+    /*margin: 0 auto 0 auto;*/
 }
 
 
