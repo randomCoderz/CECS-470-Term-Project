@@ -29,7 +29,7 @@ h2 {
     clear: both;
 }
 
-main {
+main, section {
     display: block;
     margin: 2em 20% 2em 20%;
     /* width: 80%; */

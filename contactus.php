@@ -18,7 +18,6 @@
     <?php include("navbar.php") ?>
         <div class="container">
             <main>
-
                 <?php
                 $fname =$lname = $email = $phone = $message = "";
                 $fnameError = $lnameError = $emailError = $phoneError = "";
@@ -116,102 +115,40 @@
                 }
                 ?>
 
-
-
-
-
-                <script>
-                    function validatemyform()
-                    {
-                        var fname = document.forms["RegForm"]["fname"];
-                        var lname = document.forms["RegForm"]["lname"];
-
-                        var email = document.forms["RegForm"]["email"];
-                        var phone= document.forms["RegForm"]["phone"];
-
-
-
-                        if (fname.value == "")
-                        {
-                            window.alert("Please enter first name.");
-                            fname.focus();
-                            return false;
-                        }
-
-                        if (lname.value == "")
-                        {
-                            window.alert("Please enter last name.");
-                            lname.focus();
-                            return false;
-                        }
-
-
-
-                        if (email.value == "")
-                        {
-                            window.alert("Please enter valid e-mail address");
-                            email.focus();
-                            return false;
-                        }
-
-                        if (email.value.indexOf("@", 0) < 0)
-                        {
-                            window.alert("Please enter a valid e-mail address");
-                            email.focus();
-                            return false;
-                        }
-
-                        if (email.value.indexOf(".", 0) < 0)
-                        {
-                            window.alert("Please enter a valid e-mail address");
-                            email.focus();
-                            return false;
-                        }
-
-                        if (phone.value == "")
-                        {
-                            window.alert("Please enter your website.");
-                            phone.focus();
-                            return false;
-                        }
-
-
-
-                        return true;
-                    }</script>
-
+                <script src="js/form-validation.js"></script>
 
                 <h2>Send Us a Message</h2>
                 <p>If you are interested in joining Beach Launch, or if you simply would like more information, please fill out this contact form today.</p>
 
                 <p><div class="Error">* required field</div></p>
-                <form  name="RegForm" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"  onsubmit="return validatemyform()">
+                <form name="RegForm" id="RegForm" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
-                    <div class="classinput">  <input type="text" name="fname" placeholder="First Name">
+                    <div class="classinput">  <input type="text" id="fname" name="fname" placeholder="First Name"><label for="fname">First Name:</label>
                         <span class="Error">* <?php echo $fnameError;?></span>
                         <br><br>
                     </div>
 
                     <div class="classinput">
-                        <input type="text" name="lname" placeholder="Last Name">
+                        <input type="text" name="lname" id="lname" placeholder="Last Name"><label for="lname">Last name:</label>
                         <span class="Error">* <?php echo $lnameError;?></span>
                         <br><br>
                     </div>
 
                     <div class="classinput">
-                        <input type="text" name="email" placeholder="E-mail">
+                        <input type="text" name="email" id="email" placeholder="E-mail"><label for="email">Email:</label>
                         <span class="Error">* <?php echo $emailError;?>  </span>
                         <br><br>
                     </div>
 
                     <div class="classinput">
-                        <input type="text" name="phone" placeholder="Phone">
+                        <input type="text" name="phone" id="phone" placeholder="Phone"><label for="phone">Phone:</label>
                         <span class="Error">* <?php echo $phoneError;?> </span>
                         <br><br>
                     </div>
 
                     <div class="classinput">
-                        <textarea name="message" rows="5" cols="40" placeholder="Message"></textarea>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" cols="40" placeholder="Enter your message here..."></textarea>
                         <br><br>
                     </div>
 
@@ -219,7 +156,6 @@
                     <div >
                         <button  class="button" type="submit" value="Submit">Submit</button>
                         <button class="button" type="reset" value="Reset">Reset</button>
-
                     </div>
                 </form>
 

@@ -9,14 +9,15 @@
     background-size: cover;
 }
 
-.navbannerFont{
-    cursor: pointer;
-    font-family: 'Expletus Sans', sans-serif;
-    font-size: 2em;
-
-    font-weight: 200;
-    font-style: italic;
-    line-height: 1em;
+.navbannerFont {
+	cursor: pointer;
+	font-family: 'Expletus Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 200;
+	font-style: italic;
+	line-height: 1em;
+	color: white;
+	text-decoration: none;
 }
 
 .navbannerContainer{

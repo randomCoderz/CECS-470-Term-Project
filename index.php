@@ -24,9 +24,9 @@
         <span class="splashFont">BEACH
             <br>LAUNCH</span>
     <br>
-    <span class="subTitle">The best launch team ever.</span>
+    <h1 class="subTitle">The best launch team ever.</h1>
 </div>
-<a href="#features-list">
+<a>
     <div id="banner-scroll-arrow"></div>
 </a>
 
@@ -34,7 +34,7 @@
     <?php include("menu.php") ?>
 </header>
 
-<main>
+<section>
     <div id="features-list">
         <h2>We are the Beach Launch Team</h2>
         <p>Beach Launch Team is a university student group at Cal State Long Beach dedicated to designing, building,
@@ -56,18 +56,13 @@
             <p>Error qui dolore earum facilis mollitia animi rerum minus. Distinctio et illo tenetur cumque enim ea
                 est.</p>
         </div>
-
-
         <button onclick="window.location.href='team.php'" class="button">Learn More</button>
-
-
     </div>
-</main>
+</section>
 
 <div class="full-span-feature feature-one"></div>
 
-<main>
-
+<section>
     <div class="clearfix">
         <br>
         <h2>History</h2>
@@ -113,12 +108,11 @@
         </div>
     </div>
     </div>
-</main>
+</section>
 
 <div class="full-span-feature feature-two"></div>
 
-<main>
-
+<section>
     <h2>Help us reach the next milestone!</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non volutpat risus, vel posuere orci. Vivamus
         pharetra
@@ -138,7 +132,7 @@
             <!-- <p>Watch a video of our latest launch!</p>           -->
         </div>
     </section>
-</main>
+</section>
 
 <?php include("footer.php") ?>
 

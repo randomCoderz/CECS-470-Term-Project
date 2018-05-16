@@ -1,3 +1,7 @@
+.hidden {
+    visibility: hidden;
+}
+
 div#features-list div.feature{
     float: left;
     clear: both;
