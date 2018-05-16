@@ -10,6 +10,8 @@ h2 {
     display: inline-block;
 }
 
+
+
 .bg {
     /* The image used */
     background-image: url("../image/homeImage.png");
@@ -76,6 +78,37 @@ div.launch-history div.history-item {
     min-width: 100%;
     text-align:center;
     color: tomato;
+}
+
+.navbanner
+{
+    background-image: url("../image/panoramic-banner.jpg");
+    
+    height: 16%; 
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbannerFont{
+
+ font-family: 'Expletus Sans', sans-serif;
+    font-size: 2em;
+
+    font-weight: 200;
+    font-style: italic;
+    line-height: 1em;
+}
+
+.navbannerContainer{
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 90%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
 
 .splashFont{
