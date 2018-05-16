@@ -1,23 +1,24 @@
+#!/usr/local/php5/bin/php-cg
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>Home | Beach Launch Team</title>
-    
-       <link rel="stylesheet" href="css/style.css"> 
+
+       <link rel="stylesheet" href="css/style.css">
        <link rel="stylesheet" href="css/hoe-styles.css">
        <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="ContactPage.css">
     </head>
-    
+
     <body>
-        <div class = "bg"></div>
-        <div class="splashTextContainer">
-            <span class="splashFont">BEACH<br>LAUNCH</span>
-            <br>
-            <span class="subTitle">The best launch team ever.</span>
-        </div>
+         <div class = "navbanner"></div>
+			      <div class="navbannerContainer">
+			            <span class="navbannerFont">BEACH LAUNCH</span>
+          </div>
 
 
 
@@ -34,12 +35,13 @@
                               <a href="#"><li>Donations</li></a>
                               <a href="team.html"><li>Team</li></a>
                               <a href="contactus.php"><li>Contact</li></a>
-                            </ul>   
+                            </ul>
                             </div>
                         </nav>
             </header>
-        <div class="container">
+
             <main>
+
 
                 <?php
                 $fname =$lname = $email = $phone = $message = "";
@@ -246,7 +248,7 @@
             </main>
             <footer>
                 <p>Latest Update: <em><!--#echo var="LAST_MODIFIED"--></em> </p>
-                <p>Web Developers:</p> 
+                <p>Web Developers:</p>
                 <p><em>Isaac Chavez:<span>013756039</span></em></p>
                 <p><em>Ahmed Hamed:<span>013340442</span></em></p>
                 <p><em>Raviraj Mehta:<span>013340442</span></em></p>
