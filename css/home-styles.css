@@ -181,7 +181,8 @@ div.full-span-feature {
     margin: 2em 0 2em 0;
     height: 50vh;
     background-color: #2E6359;
-
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 
 div.feature-one {
