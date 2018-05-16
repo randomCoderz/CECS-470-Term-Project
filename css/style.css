@@ -49,6 +49,11 @@ div.feature p {
 div.launch-history span.bullet {
     font-size: 3em;
     color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    line-height: 2px;
+    position: absolute;
+    left: -14px;
 }
 
 div.launch-history span.date {
@@ -59,9 +64,13 @@ div.launch-history span.date {
 
 div.launch-history div.history-item {
     height: auto;
-    margin-left: 15%;
-    border: 1px #ffffff solid;
+    /*! margin-left: 15%; */
+    border-left: 1px #ffffff solid;
     padding: 15px;
+}
+
+div.launch-history div:last-child {
+    border: none;
 }
 
 .clearfix {
@@ -101,12 +110,11 @@ span.subTitle {
 }
 
 .meet-the-team {
-    max-width: 80%;
+
 	background-color: #353535;
-	margin: 1em auto;
+
 	color: white;
 	text-align: center;
-	padding: 1em;
 }
 
 .member-profile {
@@ -141,6 +149,12 @@ span.subTitle {
     font-style: italic;
 }
 
+
+div.container {
+    display: block;
+    margin: 0px 20% 0px 20%;
+    /* width: 80%; */
+}
 /*Media Queries default*/
 
 
