@@ -198,6 +198,31 @@ div.launch-history div:last-child {
     width: 100%;
 }
 
+/*Full Span Feature */
+div.full-span-feature {
+    margin: 2em 0 2em 0;
+    height: 50vh;
+    background-color: #2E6359;
+
+}
+
+div.feature-one {
+    background-image: url("../image/fs-feature2.jpg");
+    /*opacity: 0.5;*/
+    background-attachment: fixed;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+div.feature-two {
+    background-image: url("../image/fs-feature1.jpg");
+    /*opacity: 0.5;*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: center;
+    background-position-x: center;
+}
+
 /*Media Queries default*/
 
 @media (min-width: 0px) and (max-width: 600px) {
