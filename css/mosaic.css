@@ -1,6 +1,13 @@
-* {
+*:not(#menu) {
     box-sizing: border-box;
 }
+
+main {
+    margin: 0 10% 0 10% !important;
+    padding: 0 0 3em 0;
+}
+
+
 
 body {
     margin: 0;

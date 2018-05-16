@@ -11,14 +11,12 @@
 
 <body>
 
-<!-- Header -->
-<div class="header">
-  <h1>Gallery</h1>
-</div>
 
 <?php include("navbar.php") ?>
 
+<h2>Gallery</h2>
 <!-- Photo Grid -->
+<main>
 <div class="row"> 
       <div class="column">
         <img src="image/img1.jpg" style="width:100%">
@@ -42,6 +40,7 @@
         <img src="image/img12.jpg" style="width:100%">
     </div>
 </div>
+</main>
 
 <?php include("footer.php") ?>
 </body>

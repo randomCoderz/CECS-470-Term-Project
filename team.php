@@ -1,4 +1,4 @@
-<!--#!/usr/local/php5/bin/php-cgi-->
+#!/usr/local/php5/bin/php-cgi
 
 <?php
 // Establish connection
