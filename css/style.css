@@ -21,6 +21,31 @@ h2 {
     background-size: cover;
 }
 
+.banner-scroll-arrow {
+	background-image: url("../image/expand-button.svg");
+	bottom: 5%;
+	position: absolute;
+	text-align: center;
+	width: 5%;
+	z-index: 5;
+	height: 8%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	left: 50%;
+	transform: translateX(-50%);
+	/* background-color: white; */
+	background-size: cover;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.2s opacity; 
+    opacity: 0.5;
+    color: tomato;
+}
+
+.banner-scroll-arrow:hover {
+    opacity: 1.0;
+}
+
 div.vertical-line {
     border-right: 2px solid #ffffff;
     width: .25em;
@@ -174,6 +199,8 @@ span.subTitle {
     max-width: 1020px;
     text-align: center;
 }
+
+
 
 /* The Close Button */
 

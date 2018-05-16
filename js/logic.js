@@ -5,6 +5,8 @@ window.onload = function() {
     var launchButton = document.getElementById("launch-video-button");
     var closeButton = document.getElementById("video-modal-close");
 
+    var bannerScrollArrow = document.getElementById("banner-scroll-arrow");
+
     launchButton.onclick = function() {
         modal.style.display = "block";
     }
@@ -19,4 +21,12 @@ window.onload = function() {
         }
     }
 
+    bannerScrollArrow.addEventListener("click", function(e) {
+        e.preventDefault();
+        window.location.href="#features-list";
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        }); 
+    });
 }
