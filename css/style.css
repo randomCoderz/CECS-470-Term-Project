@@ -29,14 +29,24 @@ h2 {
     clear: both;
 }
 
-span.subTitle {
-    font-size: 1.5em;
-}
-
 main {
     display: block;
     margin: 2em 20% 2em 20%;
     /* width: 80%; */
+}
+
+.button {
+    font-size: 1em;
+    display: inline-block;
+    padding: .5em;
+    margin: 1em 0 1em 0;
+    border: 1px solid tomato;
+    min-width: 100%;
+    text-align: center;
+    color: tomato;
+    background-color: transparent;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
 /*Media Queries default*/

@@ -10,7 +10,7 @@
 
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/navbar.css">
-        <link rel="stylesheet" href="ContactPage.css">
+        <link rel="stylesheet" href="css/contact.css">
     </head>
 
     <body>
@@ -180,7 +180,8 @@
                     }</script>
 
 
-                <h2>Contact Us</h2>
+                <h2>Send Us a Message</h2>
+                <p>If you are interested in joining Beach Launch, or if you simply would like more information, please fill out this contact form today.</p>
 
                 <p><div class="Error">* required field</div></p>
                 <form  name="RegForm" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"  onsubmit="return validatemyform()">
@@ -214,7 +215,8 @@
                     </div>
 
 
-                    <div >	<button  class="button" type="submit" value="Submit">Submit</button>
+                    <div >
+                        <button  class="button" type="submit" value="Submit">Submit</button>
                         <button class="button" type="reset" value="Reset">Reset</button>
 
                     </div>

@@ -123,9 +123,21 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non volutpat risus, vel posuere orci. Vivamus
         pharetra
         maximus justo. Morbi sodales purus a ligula iaculis ultricies. Nunc at sodales dui, sed sodales lacus.</p>
-    <a href="#">
-        <button class="button">Donate Today</button>
-    </a>
+
+    <button class="button" id="launch-video-button">See For Yourself</button>
+    <button onclick="window.location.href='contactus.php'" class="button">Join Today</button>
+
+    <section id="video-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="video-modal-close">&times;</span>
+            <!-- <video>
+                <source src="https://www.youtube.com/watch?v=RMkQfmGB7-0" type="video/mp4">
+            Your browser does not support HTML video.
+            </video> -->
+            <iframe width="1020" height="630" src="https://www.youtube-nocookie.com/embed/RMkQfmGB7-0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!-- <p>Watch a video of our latest launch!</p>           -->
+        </div>
+    </section>
 </main>
 
 <?php include("footer.php") ?>

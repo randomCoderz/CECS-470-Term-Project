@@ -24,6 +24,11 @@ div#feature-list {
     clear: both;
 }
 
+span.subTitle {
+    font-size: 1.5em;
+}
+
+
 .bg {
     /* The image used */
     background-image: url("../image/homeImage.png");
@@ -97,20 +102,6 @@ div.time-line div.history-item {
 
 div.time-line div:last-child {
     border: none;
-}
-
-.button {
-    font-size: 1em;
-    display: inline-block;
-    padding: .5em;
-    margin: 1em 0 1em 0;
-    border: 1px solid tomato;
-    min-width: 100%;
-    text-align: center;
-    color: tomato;
-    background-color: transparent;
-    border-radius: 50px;
-    cursor: pointer;
 }
 
 /* The Modal (background) */
