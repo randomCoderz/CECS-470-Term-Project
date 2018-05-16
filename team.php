@@ -10,7 +10,7 @@ if ($connection->connect_error) {
 }
 
 // Query the Database
-$sql = "SELECT  FirstName, LastName, Major FROM cecs470o30.Club_Officers";
+$sql = "SELECT  FirstName, LastName, Major, Bio FROM cecs470o30.Club_Officers";
 $result = $connection->query($sql);
 
 ?>
@@ -56,7 +56,7 @@ $result = $connection->query($sql);
                     echo '<i class="fas fa-user-circle avatar-icon"></i>';
                     echo '<h3>' . $row["FirstName"] . ' ' . $row["LastName"] . '</h3>';
                     echo '<h4>' . $row["Major"] . '</h4>';
-                    echo '<h4>This is dynamically pulled into the page...</h4>';
+                    echo '<h4>'.$row["Bio"].'</h4>';
                     echo '</div>';
                 }
                 ?>
