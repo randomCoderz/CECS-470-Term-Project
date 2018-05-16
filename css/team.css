@@ -1,0 +1,51 @@
+section.meet-the-team {
+    padding: 1em .5em 1em .5em;
+    margin: 2em 0 0 0;
+}
+
+#about{
+    text-align: center;
+}
+
+.meet-the-team {
+    background-color: #353535;
+    color: white;
+    text-align: center;
+}
+
+.member-profile {
+    max-width: 8em;
+    display: inline-block;
+    text-align: center;
+    margin: .5em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-bottom: 0.1em solid white;
+    /* border-radius: 1em; */
+}
+
+.member-profile:hover {
+    background-color: #3f3f3f;
+    border-bottom: 0.1em solid gold;
+    cursor: pointer;
+}
+
+.member-profile .avatar-icon {
+    font-size: 2.5em;
+}
+
+.member-profile h3 {
+    font-weight: 400;
+}
+
+.member-profile h4 {
+    font-weight: 500;
+    font-size: 0.86em;
+    font-style: italic;
+}
+
+.member-profile p {
+    font-weight: 500;
+    font-size: .7em;
+    font-style: italic;
+}

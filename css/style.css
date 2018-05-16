@@ -1,173 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Expletus+Sans:700i');
-
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
 }
 
+body {
+    font-size: 65.2%;
+    line-height: 1.5em;
+}
+
+h1, h2, h3 {
+    padding: .5em 0 .7em 0;
+    font-weight: bold;
+}
+
+
 h2 {
-    border-bottom: .2em solid #ffffff;
-    display: inline-block;
-}
-
-.bg {
-    /* The image used */
-    background-image: url("../image/homeImage.png");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-div.vertical-line {
-    border-right: 2px solid #ffffff;
-    width: .25em;
-    float: left;
-    margin-top: 29px;
-    margin-bottom: 200px;
-    left: 8px;
-    position: absolute;
-    height: 70%;
-
-}
-
-div.launch-history {
-    position: relative;
-    clear: both;
-}
-
-div.feature p {
+    font-family: 'Expletus Sans', sans-serif;
+    /*border-bottom: .2em solid #ffffff;*/
+    font-size: 1.8em;
     /*display: inline-block;*/
-    overflow: hidden;
-}
-
-
-div.launch-history span.bullet {
-    font-size: 3em;
-    color: #ffffff;
-}
-
-div.launch-history span.date {
-    display: inline-block;
-    font-size: 1.5em;
-    font-weight: 700;
-}
-
-div.launch-history div.history-item {
-    height: auto;
-    margin-left: 15%;
-    border: 1px #ffffff solid;
-    padding: 15px;
+    text-align: center;
+    /*margin: 0 auto 0 auto;*/
 }
 
 .clearfix {
     clear: both;
 }
 
+main {
+    display: block;
+    margin: 2em 20% 2em 20%;
+    /* width: 80%; */
+}
+
 .button {
+    font-size: 1em;
     display: inline-block;
-    padding: 1em;
+    padding: .5em;
     margin: 1em 0 1em 0;
     border: 1px solid tomato;
     min-width: 100%;
-    text-align:center;
-    color: tomato;
-}
-
-.splashFont{
-    font-family: 'Expletus Sans', sans-serif;
-    font-size: 4em;
-
-    font-weight: 700;
-    font-style: italic;
-    line-height: 1em;
-}
-
-.splashTextContainer{
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 30%;
-    position: absolute;
     text-align: center;
-    width: 100%;
-}
-
-span.subTitle {
-    font-size: 2em;
-}
-
-.meet-the-team {
-    max-width: 80%;
-	background-color: #353535;
-	margin: 1em auto;
-	color: white;
-	text-align: center;
-	padding: 1em;
-}
-
-.member-profile {
-	max-width: 23%;
-	display: inline-block;
-	text-align: center;
-	padding: 1em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    margin-bottom: 1em;
-    border-bottom: 0.1em solid white;
-    /* border-radius: 1em; */
-}
-
-.member-profile:hover {
-    background-color: #3f3f3f;
-    border-bottom: 0.1em solid gold;
+    color: tomato;
+    background-color: transparent;
+    border-radius: 50px;
     cursor: pointer;
-}
-
-.member-profile .avatar-icon {
-    font-size: 2.5em;
-}
-
-.member-profile h3 {
-    font-weight: 400;
-}
-
-.member-profile h4 {
-    font-weight: 500;
-    font-size: 0.86em;
-    font-style: italic;
 }
 
 /*Media Queries default*/
 
+@media (min-width: 0px) and (max-width: 600px) {
+    body {font-size: 1.1em}
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .splashFont{
-        font-size: 4em;
-    }
+
+@media (min-width: 600px) {
+    body {font-size: 1.2em}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .splashFont{
-        font-size: 7em;
-    }
+
+@media (min-width: 768px) {
+    body {font-size: 1.3em}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .splashFont{
-        font-size: 7em;
-    }
-}
 
-/* Extra large devices (large laptops and desktops, 1200px and up)*/
-@media only screen and (min-width: 1200px) {
-    .splashFont{
-        font-size: 8em;
-    }
+@media (min-width: 992px) {
+    body {font-size: 1.4em}
 }
