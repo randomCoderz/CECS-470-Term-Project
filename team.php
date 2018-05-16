@@ -56,7 +56,7 @@ $result = $connection->query($sql);
                     echo '<i class="fas fa-user-circle avatar-icon"></i>';
                     echo '<h3>' . $row["FirstName"] . ' ' . $row["LastName"] . '</h3>';
                     echo '<h4>' . $row["Major"] . '</h4>';
-                    echo '<h4>'.$row["Bio"].'</h4>';
+                    echo '<p>'.$row["Bio"].'</p>';
                     echo '</div>';
                 }
                 ?>

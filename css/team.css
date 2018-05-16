@@ -43,3 +43,9 @@ section.meet-the-team {
     font-size: 0.86em;
     font-style: italic;
 }
+
+.member-profile p {
+    font-weight: 500;
+    font-size: .7em;
+    font-style: italic;
+}
