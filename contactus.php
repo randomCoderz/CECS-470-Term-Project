@@ -115,8 +115,6 @@
                 }
                 ?>
 
-                <script src="js/form-validation.js"></script>
-
                 <h2>Send Us a Message</h2>
                 <p>If you are interested in joining Beach Launch, or if you simply would like more information, please fill out this contact form today.</p>
 
@@ -162,5 +160,6 @@
             </main>
         <?php include("footer.php") ?>
         </div>
+    <script src="js/form-validation.js"></script>
     </body>
 </html>
