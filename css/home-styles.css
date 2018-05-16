@@ -3,6 +3,10 @@ div#features-list div.feature{
     clear: both;
 }
 
+span.subTitle {
+    font-size: 2em;
+}
+
 div#features-list div.feature p{
 
 }
