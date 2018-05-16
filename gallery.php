@@ -3,7 +3,6 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>Gallery | Beach Launch Team</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/menu.css">
@@ -29,7 +28,7 @@
       </div>
       <div class="column">
         <img src="image/img5.JPG" alt="Plugging wires." style="width:100%">
-        <img src="image/img6.JPG" alt="View of rocket at night." ="width:100%">
+        <img src="image/img6.JPG" alt="View of rocket at night." style="width:100%">
         <img src="image/img7.JPG" alt="Rocket progress." style="width:100%">
         <img src="image/img8.JPG" alt="Loading rocket inside container." style="width:100%">
       </div>

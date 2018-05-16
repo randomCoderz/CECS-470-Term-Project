@@ -29,10 +29,14 @@ h2 {
     clear: both;
 }
 
-main, section {
+main {
     display: block;
     margin: 2em 20% 2em 20%;
     /* width: 80%; */
+}
+
+#mainHeader {
+    padding: 1em;
 }
 
 .button {
