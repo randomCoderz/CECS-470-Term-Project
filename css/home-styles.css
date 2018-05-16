@@ -4,6 +4,10 @@ div#features-list div.feature{
     margin: 1em 0 1em 0;
 }
 
+span.subTitle {
+    font-size: 2em;
+}
+
 div#features-list div.feature p{
 
 }
