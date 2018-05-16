@@ -18,7 +18,6 @@
             <span class="subTitle">The best launch team ever.</span>
         </div>
 
-
         <div class="container">
             <header>
                     <nav role="navigation">
@@ -101,7 +100,23 @@
                 </div>
                 <h2>You can help us reach the next milestone!</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non volutpat risus, vel posuere orci. Vivamus pharetra maximus justo. Morbi sodales purus a ligula iaculis ultricies. Nunc at sodales dui, sed sodales lacus.</p>
-                <a href="#"><span class="button">Donate Today</span></a>
+                <a href="#">
+                    <button class="button">Donate Today</button>
+                </a>
+                <button class="button" id="launch-video-button">Launch video</button>
+
+                <section id="video-modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" id="video-modal-close">&times;</span> 
+                        <!-- <video>
+                            <source src="https://www.youtube.com/watch?v=RMkQfmGB7-0" type="video/mp4">
+                        Your browser does not support HTML video.        
+                        </video> -->
+                        <iframe width="1020" height="630"; class="modal-video" src="https://www.youtube.com/embed/RMkQfmGB7-0" frameborder="0" allow="autoplay; encrypted-media" controls></iframe>
+                        <p>Watch a video of our latest launch!</p>          
+                    </div>
+                </section>
+          
             </main>
             <footer>
                 <p>Latest Update: <em><!--#echo var="LAST_MODIFIED"--></em> </p>
@@ -112,5 +127,7 @@
                 <p><em>Aman Mehta:<span>013340442</span></em></p>
                 <p><em>Juan David Lopez:<span>013101593</span></em></p>
             </footer>
+            </div>
+            <script src="js/logic.js" type="text/javascript"></script>
     </body>
 </html>
