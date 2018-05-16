@@ -1,31 +1,17 @@
-#!/usr/local/php5/bin/php-cgi
+<!--#!/usr/local/php5/bin/php-cgi-->
 
 <?php
-//Step1
-
+// Establish connection
 $connection=mysqli_connect("cecs-db01.coe.csulb.edu","cecs470o30","eing7a");
-// Check connection
 
+// Check connection
 if ($connection->connect_error) {
     die("Connection failed: " . $connection->connect_error);
-} 
+}
 
-
-  //$db = mysql_select_db("cecs470o30", $connection); // Selecting Database
-//MySQL Query to read data
-// $query = mysql_query("select * from Club_Officers", $connection);
-// Perform queries 
-//mysqli_query($con,"SELECT * FROM events");
-
+// Query the Database
 $sql = "SELECT  FirstName, LastName, Major FROM cecs470o30.Club_Officers";
 $result = $connection->query($sql);
-
-
-
-echo "fetch Connected successfully yo";
- 
- 
-
 
 ?>
 
@@ -48,68 +34,41 @@ echo "fetch Connected successfully yo";
         <div class = "bg"></div>
         <div class="container">
             <header>
-                    <nav role="navigation">
-                            <div id="menuToggle">
-                                <input type="checkbox"/>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            <ul id="menu">
-                              <a href="#"><li>Home</li></a>
-                              <a href="#"><li>About Us</li></a>
-                              <a href="#"><li>Info</li></a>
-                              <a href="contact.html"><li>Contact</li></a>
-                            </ul>   
-                            </div>
-                        </nav>
+                <nav role="navigation">
+                    <div id="menuToggle">
+                        <input type="checkbox"/>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    <ul id="menu">
+                      <a href="#"><li>Home</li></a>
+                      <a href="#"><li>About Us</li></a>
+                      <a href="#"><li>Info</li></a>
+                      <a href="contact.html"><li>Contact</li></a>
+                    </ul>
+                    </div>
+                </nav>
             </header>
 
             <main>
-                <!-- <div id="features-list">
-                    <h2>Meet the team</h2>
-                    
-                    <div class="feature">
-                        <img alt="" src="https://source.unsplash.com/random/100x100" height="" width=""/>
-                        <p>Dignissimos ex quae quia. Hic vitae exercitationem consequatur sapiente odit sed ducimus eligendi.</p>
-                    </div>
-
-                    <div class="feature">
-                        <img alt="" src="https://source.unsplash.com/random/100x100" height="" width=""/>
-                        <p>Inventore reprehenderit quidem sit illum molestiae consequatur voluptatum rerum.</p>
-                    </div>
-
-                    <div class="feature">
-                        <img alt="" src="https://source.unsplash.com/random/100x100" height="" width=""/>
-                        <p>Error qui dolore earum facilis mollitia animi rerum minus. Distinctio et illo tenetur cumque enim ea est.</p>
-                    </div>
-                    <p>Hello</p>
-                </div> -->
-				
-
 
  
- <?php 
-  while ($row = mysqli_fetch_assoc($result)) {
-        printf ("%s %s %s \n", $row["FirstName"], $row["LastName"], $row["Major"]);
-    }
 
-	
-	?> 
+
 	
                 <section class="meet-the-team">
                     <h1>Meet the Team</h1>
-                    <div class="member-profile">
-                        <i class="fas fa-user-circle avatar-icon"></i>
-						
-						
-			
-			
-					
-                        <h3>						
 
-					</h3>
-                        <h4><?php printf ("%s \n",$row["Major"]); ?>  </h4>
-                    </div>
+                    <?php
+                        while ($row = mysqli_fetch_assoc($result)) {
+
+                            echo '<div class="member-profile">';
+                            echo '<i class="fas fa-user-circle avatar-icon"></i>';
+                            echo '<h3>'.$row["FirstName"].' '.$row["LastName"].'</h3>';
+                            echo '<h4>'.$row["Major"].'</h4>';
+                            echo '</div>';
+                        }
+                    ?>
 
                     <div class="member-profile">
                         <i class="fas fa-user-circle avatar-icon"></i>
